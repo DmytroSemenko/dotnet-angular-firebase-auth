@@ -1,0 +1,12 @@
+<input id="email" [(ngModel)]="email" type="email" name="email" placeholder="Enter your email">
+<input id="password" [(ngModel)]="password" type="password" name="password" placeholder="Enter your password">
+<input id="displayName" [(ngModel)]="displayName" type="text" name="displayName" placeholder="Enter your name">
+<button (click)="userSignUpWithEmailAndPassword(this.email, this.password)">Sign In</button>
+<button (click)="userSignUpWithEmailAndPassword(this.email, this.password)">Sign Up</button>
+<button (click)="userSignOut()">Sign Out</button>
+<button (click)="userSignInWithGoogle()">Sign in with Google</button>
+<button (click)="deleteUser()">Delete User</button>
+<button (click)="getApiSecretData()">Call API Endpoint</button>
+
+<h1>{{(user | async)?.displayName}}</h1>
+<h1>{{ secretData }}</h1>
