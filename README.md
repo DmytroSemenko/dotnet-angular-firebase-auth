@@ -23,7 +23,7 @@ Create Firebase Account and Web App Client and replace placeholders in two files
 - client/src/environments/environment.ts
 - Server/Server.API/appsettings.json
 
-Run .NET backend on using Visual Studio or command
+Run .NET backend using Visual Studio or command
 ```sh
 dotnet run
 ```
