@@ -1,4 +1,4 @@
-# .NET Angular Firebas Authentication Simple Example
+# .NET Angular Firebase Authentication Simple Example
 ## Stack
 - .NET
 - Angular
